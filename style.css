@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif; 
+}
+
+body{
+    background:#0a0908;
+    color: #c6ac8f;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: center;
+    width: 100%;
+}
+
+.titulo_urna{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: #0a0908;
+    margin: 0;
+}
+
+.container_urna{
+    background:#c6ac8f;
+    border-radius: 15px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.lista_numeros{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botao_numero{
+    background-color: #eae0d5;
+    width: 33%;
+    border: 2px solid #070707;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.botao_numero:hover{
+    background: #000000;
+    color:#fcfcfb
+}
+
+#delete{
+    background: #e2df0f;
+}
+
+#confirma{
+    background: #4be20f;
+}
+
+.confirma:hover{
+    color: #fff;
+}
+
+.tela_urna{
+    background-color: #ffffff;
+    border: 3px solid #070707;
+    border-radius: 5px;
+    margin: 1em;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;        
+}
+
+.texto_tela{
+    background: #c6ac8f;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    border-top: 3px solid #000;
+}
+
+img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 88%;
+}
